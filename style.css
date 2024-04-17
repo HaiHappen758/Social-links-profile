@@ -1,12 +1,26 @@
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+}
 body {
-    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--off-black);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
 }
 
 .profileCard {
     display: flex;
     flex-direction: column;
-    width: 320px;
-    justify-items: center;
     align-items: center;
-    background-color: hsl(0, 0%, 12%);
+    width: 320px;
+    background-color: var(--dark-grey);
+    padding: 40px;
+    border-radius: 20px;
+    
 }
