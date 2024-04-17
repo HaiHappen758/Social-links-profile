@@ -1,0 +1,12 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+.profileCard {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    justify-items: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+}
